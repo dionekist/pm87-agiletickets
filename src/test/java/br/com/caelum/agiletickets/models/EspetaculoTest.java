@@ -68,7 +68,7 @@ public class EspetaculoTest {
 		
 		List<Sessao> sessoes = ivete.criaSessoes(inicio, fim, horario, Periodicidade.SEMANAL);
 		
-		assertTrue(sessoes.isEmpty());
+		assertTrue(!sessoes.isEmpty());
 	}
 	
 	@Test
